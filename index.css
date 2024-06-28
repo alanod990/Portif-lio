@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+.container{
+    background-color: black;
+    background-image: url(baner.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav, .chamada{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    padding: 10px;
+}
+div.chamada p::first-line{
+    font-size: 7vh;
+} 
+.nav{
+    justify-content: space-around;
+    color: black;
+    font-size: 3vh;
+}
+
